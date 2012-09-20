@@ -84,6 +84,6 @@ $detect->version('Opera Mini'); // 5.0 (float)
 
 ### Projects based on the class
 
-* **Symphony2** bundle for detecting mobile devices [https://github.com/suncat2000/MobileDetectBundle](https://github.com/suncat2000/MobileDetectBundle)
+* **Symphony2** bundle for detecting mobile devices - [https://github.com/suncat2000/MobileDetectBundle](https://github.com/suncat2000/MobileDetectBundle)
 * **Drupal Context Mobile Detect module** - [http://drupal.org/project/context_mobile_detect](http://drupal.org/project/context_mobile_detect)
 * **Wordpress WP Mobile Detect module** - [http://wordpress.org/extend/plugins/wp-mobile-detect/](http://wordpress.org/extend/plugins/wp-mobile-detect/)
