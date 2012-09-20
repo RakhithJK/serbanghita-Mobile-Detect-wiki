@@ -45,7 +45,7 @@ if($detect->isAndroidOS()){
 ```
 Other case insensitive available methods are `isIphone()`, `isIpad()`, `isBlackBerry()`, `isKindle()`, `isOpera()`, etc. For the full list of available methods check the `demo.php` file.
 
-Alternative method `is()` for checking specific properties:
+Alternative method `is()` for checking specific properties (in beta):
 ```
 <?php
 $detect->is('Chrome')
