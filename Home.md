@@ -47,6 +47,7 @@ Other case insensitive available methods are `isIphone()`, `isIpad()`, `isBlackB
 
 Alternative method `is()` for checking specific properties:
 ```
+<?php
 $detect->is('Chrome')
 $detect->is('iOS')
 $detect->is('UC Browser')
