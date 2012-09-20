@@ -62,10 +62,12 @@ $userAgents = array(
 'BlackBerry7100i/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/103',
 [...]
 );
-$detect->setUserAgent($userAgent);
-$isMobile = $detect->isMobile();
-$isTablet = $detect->isTablet();
-// Use the force however you want.
+foreach($userAgents as $userAgent){
+  $detect->setUserAgent($userAgent);
+  $isMobile = $detect->isMobile();
+  $isTablet = $detect->isTablet();
+  // Use the force however you want.
+}
 ```
 
 Get the `version()` of components (in beta):
