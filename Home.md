@@ -88,3 +88,4 @@ $detect->version('Opera Mini'); // 5.0 (float)
 * **Drupal Context Mobile Detect module** - [http://drupal.org/project/context_mobile_detect](http://drupal.org/project/context_mobile_detect)
 * **Wordpress WP Mobile Detect module** - [http://wordpress.org/extend/plugins/wp-mobile-detect/](http://wordpress.org/extend/plugins/wp-mobile-detect/)
 * **Responsage** small WordPress theme plugin that allows you to make your images responsive - [https://github.com/iamspacehead/responsage](https://github.com/iamspacehead/responsage)
+* **bConsole** creates a panel that sits on top of a browser-based project and provides information about the client machine and browser - http://code.google.com/p/bconsole/
