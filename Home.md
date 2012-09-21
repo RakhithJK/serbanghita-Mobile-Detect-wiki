@@ -11,35 +11,35 @@ Sponsored by ![BrowserStack](http://jquery.org/wp-content/uploads/2010/01/browse
 ### Usage
 
 Include and instantiate the class:
-```
+```php
 <?php
 include 'Mobile_Detect.php';
 $detect = new Mobile_Detect();
 ```
 Basic usage, looking for mobile devices or tablets:
-```
+```php
 <?php
 if ($detect->isMobile()) {
     // Any mobile device.
 }
 ```
 
-```
+```php
 <?php
 if($detect->isTablet()){
     // Any tablet device.
 }
 ```
 
-Check for a specific platform:
-```
+Check for a specific platform with the help of the magic methods:
+```php
 <?php
 if($detect->isiOS()){
     // Code to run for the Apple's iOS platform.
 }
 ```
 
-```
+```php
 <?php
 if($detect->isAndroidOS()){
     // Code to run for the Google's Android platform.
@@ -48,7 +48,7 @@ if($detect->isAndroidOS()){
 Other case insensitive available methods are `isIphone()`, `isIpad()`, `isBlackBerry()`, `isKindle()`, `isOpera()`, etc. For the full list of available methods check the `demo.php` file.
 
 Alternative method `is()` for checking specific properties (in beta):
-```
+```php
 <?php
 $detect->is('Chrome')
 $detect->is('iOS')
@@ -57,7 +57,7 @@ $detect->is('UC Browser')
 ```
 
 Batch mode using `setUserAgent()`:
-```
+```php
 <?php
 $userAgents = array(
 'Mozilla/5.0 (Linux; Android 4.0.4; Desire HD Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19',
@@ -73,7 +73,7 @@ foreach($userAgents as $userAgent){
 ```
 
 Get the `version()` of components (in beta):
-```
+```php
 <?php
 $detect->version('iPad'); // 4.3 (float)
 $detect->version('iPhone') // 3.1 (float)
