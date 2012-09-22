@@ -1,8 +1,12 @@
-Validate the class against:
+### Validate the class against:
 
 1. http://www.zytrax.com/tech/web/mobile_ids.html (DONE)
 1. http://techpatterns.com/downloads/firefox/useragentswitcher.xml
 
-Add to projects list:
+### Add to projects list:
 
 1. https://github.com/axelwehner/c5-MobileDetectHelper
+
+### Code updates:
+
+1. On demo.php send the results via jsonp to mobiledetect.net db
