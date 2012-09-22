@@ -4,6 +4,7 @@
 1. http://techpatterns.com/downloads/firefox/useragentswitcher.xml
 1. http://brettjankord.com/categorizr/categorizr-results.php
 1. http://brettjankord.com/categorizr/desktop.php
+1. http://www.russellbeattie.com/blog/media/headers.txt [HTTP headers]
 
 ### Add to projects list:
 
