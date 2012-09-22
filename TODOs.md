@@ -15,6 +15,8 @@
 1. http://www.concrete5.org/ (https://github.com/concrete5/concrete5/blob/master/web/concrete/libraries/3rdparty/mobile_detect.php)
 1. http://themeforest.net/item/my-mobile-page-v3-wordpress-theme/1328741
 1. http://wordpress.org/extend/themes/swift-basic
+1. https://github.com/otto-torino/gino
+1. http://shoppica2.com/
 
 ### Code updates:
 
