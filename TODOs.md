@@ -17,6 +17,7 @@
 1. http://wordpress.org/extend/themes/swift-basic
 1. https://github.com/otto-torino/gino
 1. http://shoppica2.com/
+1. https://github.com/spotweb/spotweb
 
 ### Code updates:
 
