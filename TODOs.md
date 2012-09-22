@@ -12,6 +12,9 @@
 1. http://www.zenphoto.org/documentation/core/_zp-extensions---mobileTheme---Mobile_Detect.php.html
 1. http://www.reviewsforjoomla.com
 1. https://code.todoyu.com/ticket/236
+1. http://www.concrete5.org/ (https://github.com/concrete5/concrete5/blob/master/web/concrete/libraries/3rdparty/mobile_detect.php)
+1. http://themeforest.net/item/my-mobile-page-v3-wordpress-theme/1328741
+1. http://wordpress.org/extend/themes/swift-basic
 
 ### Code updates:
 
