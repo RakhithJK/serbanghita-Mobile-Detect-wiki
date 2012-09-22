@@ -9,6 +9,7 @@
 ### Add to projects list:
 
 1. https://github.com/axelwehner/c5-MobileDetectHelper
+1. http://www.zenphoto.org/documentation/core/_zp-extensions---mobileTheme---Mobile_Detect.php.html
 
 ### Code updates:
 
