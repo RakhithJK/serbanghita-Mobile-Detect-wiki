@@ -3,6 +3,7 @@
 1. http://www.zytrax.com/tech/web/mobile_ids.html (DONE)
 1. http://techpatterns.com/downloads/firefox/useragentswitcher.xml
 1. http://brettjankord.com/categorizr/categorizr-results.php
+1. http://brettjankord.com/categorizr/desktop.php
 
 ### Add to projects list:
 
