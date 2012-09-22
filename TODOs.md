@@ -11,6 +11,7 @@
 1. https://github.com/axelwehner/c5-MobileDetectHelper
 1. http://www.zenphoto.org/documentation/core/_zp-extensions---mobileTheme---Mobile_Detect.php.html
 1. http://www.reviewsforjoomla.com
+1. https://code.todoyu.com/ticket/236
 
 ### Code updates:
 
