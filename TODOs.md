@@ -9,7 +9,7 @@
 ### Add to projects list:
 
 1. https://github.com/axelwehner/c5-MobileDetectHelper
-1. http://www.zenphoto.org/documentation/core/_zp-extensions---mobileTheme---Mobile_Detect.php.html
+1. http://www.zenphoto.org/documentation/core/_zp-extensions---mobileTheme---Mobile_Detect.php.html ; http://www.zenphoto.org/news/mobiletheme
 1. http://www.reviewsforjoomla.com
 1. https://code.todoyu.com/ticket/236
 1. http://www.concrete5.org/ (https://github.com/concrete5/concrete5/blob/master/web/concrete/libraries/3rdparty/mobile_detect.php)
