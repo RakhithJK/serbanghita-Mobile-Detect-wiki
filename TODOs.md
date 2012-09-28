@@ -18,6 +18,7 @@
 1. https://github.com/otto-torino/gino
 1. http://shoppica2.com/
 1. https://github.com/spotweb/spotweb
+1. https://github.com/IFBook/CommentPressPlugin
 
 ### Code updates:
 
