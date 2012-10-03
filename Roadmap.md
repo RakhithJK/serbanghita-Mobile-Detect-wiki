@@ -54,3 +54,6 @@ $detect->what();
 // Possibility to pick component.
 $detect->what('browser');
 ```
+
+### Internal updates and refactoring of code
+> We are currently storing `$phoneDevices`, `$tabletDevices`, `$operatingSystems`, `$userAgents`, `$utilities` and `$properties` separately and unify the first 5 variables through `setMobileDetectionRules()` depending of the method the user is using: `isMobile()`, `isTablet()` respectively `is()`. This can be costly and in the same time it doesn't provide flexibility we need for the new `what()` method.
