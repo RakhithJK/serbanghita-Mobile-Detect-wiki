@@ -32,5 +32,25 @@ $detect->setHttpHeaders($httpHeaders);
 ```
 <?php
 // General informations about the device.
-$detect->device();
+$detect->what();
+/*
+@return array(
+
+ 'browser' => 'Chrome',
+ 'browserVer' => 11.2,
+ 'deviceBrand' => 'HTC',
+ 'deviceVer' => 5.0,
+ 'os' => 'Windows Phone OS',
+ 'osVer' => 7.5,
+ 'deviceType' => 'mobile',
+ 
+ // extended
+ 'WebKit' => 534.30,
+ 'Build' => 4.1.A.0.562,
+
+)
+*/
+
+// Possibility to pick component.
+$detect->what('browser');
 ```
