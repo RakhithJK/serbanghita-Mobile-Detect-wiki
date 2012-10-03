@@ -1,4 +1,5 @@
-What we have now:
+### What we have now
+***
 
 ```
 <?php
@@ -22,3 +23,11 @@ $detect->mobileGrade();
 $detect->setUserAgent($userAgent);
 $detect->setHttpHeaders($httpHeaders);
 ```
+
+### What we need
+***
+
+```
+<?php
+// General informations about the device.
+$detect->device();
