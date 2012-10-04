@@ -5,6 +5,7 @@
 1. http://brettjankord.com/categorizr/categorizr-results.php
 1. http://brettjankord.com/categorizr/desktop.php
 1. http://www.russellbeattie.com/blog/media/headers.txt [HTTP headers]
+1. http://www.quirksmode.org/mobile/browsers.html (Mobile Browsers List and comparisons)
 
 ### Add to projects list:
 
