@@ -63,9 +63,9 @@ $detect->what('browser');
 ```
 <?php
 
-private $what; // Array
+private $what; // Cache array with the latest what() info.
 
-private $search = array(
+private $searchPlaces = array(
 
  'mobile' => array(
    'iPhone' => 'regex',
@@ -87,9 +87,18 @@ private $search = array(
  ),
 
  'browser' => array(
-   'Chrome' => array('match' => 'regex', 'label' => 'Chrome', 'ver' => ''),
+   'Chrome' => array('match' => 'regex', 'label' => 'Chrome', 'ver' => 'Chrome/[VER]'),
+   'ChromeMobile' => array('match' => 'regex', 'label' => 'Chrome Mobile', 'ver' => ''),
    'Opera'  => array('match' => 'regex', 'label' => 'Opera', 'ver' => ''),
+   'OperaMini' => array('match' => 'regex', 'label' => 'Opera Mini', 'ver' => 'Opera Mini/[VER]'),
+   'OperaMobi' => array('match' => 'regex', 'label' => 'Opera Mobi', 'ver' => 'Version/[VER]'),
  ),
+
+ 'other' => array(
+  'WebKit' => array('match' => 'regex', 'label' => 'WebKit', 'ver' => ''),
+  'Bot' => array('match' => 'regex', 'label' => 'Bot'),
+  'MobileBot' => array('match' => 'regex', 'label' => 'MobileBot')
+ )
 
 );
 
