@@ -1,4 +1,7 @@
 # Mobile Detect
+
+![Mobile Detect](http://demo.mobiledetect.net/logo-github.png)
+
 ### The lightweight PHP class for detecting mobile devices.
 
 > Mobile\_Detect is a lightweight PHP class for detecting mobile devices. It uses the user-agent string combined with specific HTTP headers to detect the mobile environment.
