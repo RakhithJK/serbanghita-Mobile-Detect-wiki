@@ -7,6 +7,7 @@
 1. http://www.russellbeattie.com/blog/media/headers.txt [HTTP headers]
 1. https://deviceatlas.com/resources/side-loaded-browser-handling [Alternative HTTP headers for HTTP_USER_AGENT]
 1. http://www.quirksmode.org/mobile/browsers.html (Mobile Browsers List and comparisons)
+1. https://github.com/davidwood/connect-categorizr/blob/master/test/tablet.json (Tablets user-agents)
 
 ### Add to projects list:
 
