@@ -19,6 +19,56 @@
 1. Recreate `is()` method for backward compatibility.
 1. Create internal caching mechanism for the `what()` method. Should be able to create, read and destroy the cache.
 
+### Competition
+
+List of open-source and commercial projects involved in detection of mobile devices or mobile features.
+
+<table>
+<tr>
+<th colspan="3">Open source / Free</th>
+</tr>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Notes</th>
+</tr>
+<tr>
+<td><a href="https://github.com/davidwood/connect-categorizr">connect-categorizr</a></td>
+<td>Connect middleware that provides device detection, based on Brett Jankord's Categorizr.</td>
+<td>Node.js dependency</td>
+</tr>
+<tr>
+<td><a href="https://github.com/bjankord/Categorizr">Categorizr</a></td>
+<td>A modern device detection script.</td>
+<td>PHP based. `isMobile()`, `isTablet()`, `isDesktop()`, `isTV()`</td>
+</tr>
+<tr>
+<td><a href="https://github.com/dmolsen/Detector">Detector</a></td>
+<td>Detector is a simple, PHP- and JavaScript-based browser- and feature-detection library that can adapt to new devices & browsers on its own without the need to pull from a central database of browser information.</td>
+<td>PHP based. Uses `ua-parser-php` and `Modernizr`. Stores features via `Modernizr` in cookie and session. `$ua->isMobile`, `checkSpider()`</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jamesgpearce/modernizr-server">Modernizr server</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/tobie/ua-parser">ua-parser</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/yiibu/profile">profile</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>https://github.com/raducotescu/browsermap</td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
 ### Validate the class against:
 
 1. <s>http://www.zytrax.com/tech/web/mobile_ids.html</s>
