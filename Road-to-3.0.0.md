@@ -45,7 +45,7 @@ List of open-source and commercial projects involved in detection of mobile devi
 <tr>
 <td><a href="https://github.com/dmolsen/Detector">Detector</a></td>
 <td>Detector is a simple, PHP- and JavaScript-based browser- and feature-detection library that can adapt to new devices & browsers on its own without the need to pull from a central database of browser information.</td>
-<td>PHP based. Uses `ua-parser-php` and `Modernizr`. Stores features via `Modernizr` in cookie and session. `$ua->isMobile`, `checkSpider()`</td>
+<td><font color="#9999cc">PHP</font> based. Uses `ua-parser-php` and `Modernizr`. Stores features via `Modernizr` in cookie and session. `$ua->isMobile`, `checkSpider()`</td>
 </tr>
 <tr>
 <td><a href="https://github.com/jamesgpearce/modernizr-server">Modernizr server</a></td>
