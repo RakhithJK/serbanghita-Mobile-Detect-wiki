@@ -63,7 +63,7 @@ List of open-source and commercial projects involved in detection of mobile devi
 <td></td>
 </tr>
 <tr>
-<td>https://github.com/raducotescu/browsermap</td>
+<td><a href="https://github.com/raducotescu/browsermap">browsermap</a></td>
 <td></td>
 <td></td>
 </tr>
