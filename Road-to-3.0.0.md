@@ -1,3 +1,5 @@
+> "Work like a slave, command like a king, create like a God."
+
 ### v.3.0.0 branch
 
 1. Add regexes from `2.x.x`, from each device brand, to the `$items` array.
