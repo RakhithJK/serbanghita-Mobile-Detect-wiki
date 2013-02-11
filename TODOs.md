@@ -10,9 +10,10 @@
 1. Create `version()` method.
 1. Create `VersionTests.php` based on information from `mobilePerVendor_useragents.inc.php`. At least one test per vendor. Create `version` key and array value with the correct data to validate against.
 1. Recreate `isMobile()` method for backward compatibility.
+1. Recreate the pseudo-methods from `$items['mobile']` and `$items['tablet']` arrays.
 1. Write `MobileTests.php` based on information from `mobilePerVendor_useragents.inc.php`. All the items should be able to validate against `isMobile()` method.
-1. The same with `isTablet` (use the same `MobileTests.php` file).
-1. Recreate `isTablet() method for backward compatibility.
+1. The same with `isTablet()` (use the same `MobileTests.php` file).
+1. Recreate `isTablet()` method for backward compatibility.
 1. Recreate `is()` method for backward compatibility.
 1. Create internal caching mechanism for the `what()` method. Should be able to create, read and destroy the cache.
 
