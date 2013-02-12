@@ -77,6 +77,7 @@ List of open-source and commercial projects involved in detection of mobile devi
 1. http://brettjankord.com/categorizr/desktop.php
 1. <s>http://www.russellbeattie.com/blog/media/headers.txt [HTTP headers]</s>
 1. <s>https://deviceatlas.com/resources/side-loaded-browser-handling [Alternative HTTP headers for HTTP_USER_AGENT]</s>
+1. http://learnthemobileweb.com/2009/07/mobile-mime-types/ [MIME types]
 1. http://www.quirksmode.org/mobile/browsers.html (Mobile Browsers List and comparisons)
 1. https://github.com/davidwood/connect-categorizr/blob/master/test/tablet.json (Tablets user-agents)
 
