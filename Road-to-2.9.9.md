@@ -11,7 +11,7 @@
 1. <s>Research all Sony Tablets from Japan</s>
 1. <s>`z1000` is a tablet; research all Zync tablets</s>
 1. `cm_tenderloin` is a tablet
-1. `V9S_V1.4` is a 7" tablet
+1. `V9S_V1.4` is a 7" tablet - ZTE Light Tab http://devdb.ru/zte_light_tab_3
 1. `Next7P12` is `Nextbook 7SE Tablet`
 1. `Tabtronics` tablets http://www.tabtronics.co.uk/SearchResults.asp?Cat=1817
 1. `CUBE U8GT` tablet
