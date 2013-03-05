@@ -2,6 +2,7 @@
 
 ### v.2.x.x branch
 
+1. `OPR/14.0.1025.52315` http://my.opera.com/ODIN/blog/2013/03/05/opera-14-beta-for-android-is-out
 1. Research `Windows NT 6.2` (Windows 8) in combination with `ARM` or `Touch`
 1. <s>`A210` looks like `Acer Iconia Tab` is not recognized as a tablet</s>
 1. <s>Add the latest `Acer Tablets`</s>
