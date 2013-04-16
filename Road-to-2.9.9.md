@@ -19,3 +19,4 @@
 1. `Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; M9000 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 UC/2.1.1.219` http://www.newegg.com/Product/Product.aspx?Item=9SIA1M80E16107
 1. Hero Tab - http://theherotab.com/home/
 1. `Allwinner A10 tablet` http://forum.xda-developers.com/showthread.php?t=1925577
+1. Add references to articles: http://www.lukew.com/ff/entry.asp?1392 and http://mobile.smashingmagazine.com/2013/04/09/improve-mobile-support-with-server-side-enhanced-responsive-design/
