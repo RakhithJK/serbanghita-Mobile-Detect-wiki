@@ -21,3 +21,4 @@
 1. Hero Tab - http://theherotab.com/home/
 1. `Allwinner A10 tablet` http://forum.xda-developers.com/showthread.php?t=1925577
 1. Add references to articles: http://www.lukew.com/ff/entry.asp?1392 and http://mobile.smashingmagazine.com/2013/04/09/improve-mobile-support-with-server-side-enhanced-responsive-design/
+1. Study `'(\d+).(\d+).?([ab]?\d+[a-z]*)?'.` for float version extraction
