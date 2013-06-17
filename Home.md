@@ -1,5 +1,14 @@
-![Mobile Detect](http://demo.mobiledetect.net/logo-github.png)
-
+<table width="100%" border="0">
+  <td><img src="http://demo.mobiledetect.net/logo-github.png"></td>
+  <td width="120">
+    <ol>
+      <li><a href="https://github.com/serbanghita/Mobile-Detect/blob/master/README.md#demo">Demo</a></li>
+      <li><a href="https://github.com/serbanghita/Mobile-Detect/blob/master/README.md#help">Help</a></li>
+      <li><a href="https://github.com/serbanghita/Mobile-Detect/blob/master/README.md#code-examples">Examples</li>
+      <li><a href="https://github.com/serbanghita/Mobile-Detect/blob/master/README.md#3rd-party-modules--submit-new">3<sup>rd</sup> party</a></li>
+    </ol>
+  </td>
+</table>
 > Motto: "Every business should have a mobile detection script to detect mobile readers."
 
 <i>Mobile_Detect is a lightweight PHP class for detecting mobile devices (including tablets).
