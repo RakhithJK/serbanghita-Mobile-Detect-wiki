@@ -1,5 +1,34 @@
 > "Work like a slave, command like a king, create like a God."
 
+### v.3.0.0 API
+
+##### Variables
+
+```php
+<?php
+const VERSION = '3.0.0';
+protected $userAgent = null;
+protected $httpHeaders = array();
+protected static $items = array(
+ 'phoneDevices' => array(),
+ 
+);
+```
+
+##### Methods
+
+```php
+<?php
+public function __construct( $httpHeaders , $userAgent ) {
+ $this->setHttpHeaders($httpHeaders); 
+ $this->setUserAgent($userAgent);
+}
+public function getVersion();
+public function setUserAgent( $userAgent );
+public function getUserAgent();
+```
+
+
 ### v.3.0.0 branch
 
 1. Add regexes from `2.x.x`, from each device brand, to the `$items` array.
