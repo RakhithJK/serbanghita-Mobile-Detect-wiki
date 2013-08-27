@@ -7,13 +7,27 @@
 ```php
 <?php
 const VERSION = '3.0.0';
+const VERSION_REGEX = '([\w._\+]+)';
 protected $userAgent = null;
 protected $httpHeaders = array();
 protected static $items = array(
  'phoneDevices' => array(),
  'tabletDevices' => array(),
  'operatingSystems' => array(),
- 'browsers' => array()
+ 'browsers' => array(),
+ 'utilities' => array() // Move this?
+);
+
+protected static $itemsProperties = array(
+ // Build specific version.
+ 'Mobile' => 'Mobile/[VERSION_REGEX]',
+ 'Build' => 'Build/[VER]',
+ // Device specific version.
+ 'iPad' => 'iPad.*CPU[a-z ]+[VER]',
+ // Browser version.
+ 'Chrome' => array('Chrome/[VER]', 'CriOS/[VER]', 'CrMo/[VER]'),
+ // Engine version.
+ // OS version.
 );
 ```
 
