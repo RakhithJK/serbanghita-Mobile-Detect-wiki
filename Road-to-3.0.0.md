@@ -1,6 +1,6 @@
 > "Work like a slave, command like a king, create like a God."
 
-### v.3.0.0 API
+### API
 
 ##### Variables
 
@@ -40,6 +40,8 @@ protected static $itemsProperties = array(
  // [...]
 );
 ```
+
+`$items[ $itemKey ]` should point to what `$itemsProperties` are relevant.
 
 ##### Methods
 
@@ -82,7 +84,10 @@ public function what() {
 ```
 
 
-### v.3.0.0 branch
+***
+
+
+### TODO
 
 1. Add regexes from `2.x.x`, from each device brand, to the `$items` array.
 1. Add `version` key, from each device brand, to the `$items` array.
