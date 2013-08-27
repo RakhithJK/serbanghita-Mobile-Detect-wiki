@@ -11,7 +11,9 @@ const VERSION_REGEX = '([\w._\+]+)';
 protected $userAgent = null;
 protected $httpHeaders = array();
 protected static $items = array(
- 'phoneDevices' => array(),
+ 'phoneDevices' => array(
+    
+ ),
  'tabletDevices' => array(),
  'operatingSystems' => array(),
  'browsers' => array(),
@@ -28,6 +30,7 @@ protected static $itemsProperties = array(
  'Chrome' => array('Chrome/[VER]', 'CriOS/[VER]', 'CrMo/[VER]'),
  // Engine version.
  // OS version.
+ // [...]
 );
 ```
 
@@ -40,15 +43,33 @@ public function __construct( $httpHeaders , $userAgent ) {
  $this->setHttpHeaders($httpHeaders); 
  $this->setUserAgent($userAgent);
 }
-// Utility methods.
+// Public utility methods.
 public function getVersion();
 public function setUserAgent( $userAgent );
 public function getUserAgent();
+public function getItems( $itemKey = null );
+public function getItemsProperties();
+// Internal utility methods
+private function _match( $regex );
+private function _prepareVersion( $version );
 // Checking methods.
 public function checkHttpHeadersForMobile();
+public function __call($name, $arguments);
 public function isMobile();
 public function isTablet();
 public function is( $itemKey );
+
+public function what() {
+ return array(
+    'deviceType' => 'mobile', // tablet, classic
+    'deviceVendor' => 'Samsung',
+    'deviceModel' => 'GT-B2700',
+    'os' => 'Android',
+    'osVersion' => '4.1.1',
+    'browser' => 'Chrome',
+    'browserVer' => '18.0.1025.308',
+ )
+}
 ```
 
 
