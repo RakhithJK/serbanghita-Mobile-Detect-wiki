@@ -2,6 +2,8 @@
 
 Whether the user is coming from mobile, tablet or computer there is an acute need to categorize them. Every information about the _device_, _operating system_ and _browser_ can help the developer serving the right content.
 
+We are currently storing `$phoneDevices`, `$tabletDevices`, `$operatingSystems`, `$browsers`, `$utilities` and `$properties` separately and unify the first 5 variables through `setMobileDetectionRules()` depending of the method the user is using: `isMobile()`, `isTablet()` respectively `is()`. This can be costly and in the same time it doesn't provide flexibility we need for the new `what()` method.
+
 ### API
 
 ##### Variables
