@@ -29,12 +29,12 @@ protected static $items = array(
 
 protected static $itemsProperties = array(
  // Build specific version.
- 'Mobile' => 'Mobile/[VERSION_REGEX]',
- 'Build' => 'Build/[VERSION_REGEX]',
+ 'Mobile' => 'Mobile/[REGEX]',
+ 'Build' => 'Build/[REGEX]',
  // Device specific version.
- 'iPad' => 'iPad.*CPU[a-z ]+[VERSION_REGEX]',
+ 'iPad' => 'iPad.*CPU[a-z ]+[REGEX]',
  // Browser version.
- 'Chrome' => array('Chrome/[VERSION_REGEX]', 'CriOS/[VERSION_REGEX]', 'CrMo/[VERSION_REGEX]'),
+ 'Chrome' => array('Chrome/[REGEX]', 'CriOS/[REGEX]', 'CrMo/[REGEX]'),
  // Engine version.
  // OS version.
  // [...]
