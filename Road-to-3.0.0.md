@@ -10,9 +10,15 @@ const VERSION = '3.0.0';
 const VERSION_REGEX = '([\w._\+]+)';
 protected $userAgent = null;
 protected $httpHeaders = array();
+protected $cache = array();
 protected static $items = array(
  'phoneDevices' => array(
-    
+    'HTC'        => array(
+      'vendor' => 'HTC',
+      'match' => 'HTC|HTC.*(Sensation|Evo|Vision|Explorer|6800|8100|8900|A7272|S510e|C110e|Legend|Desire|T8282)|APX515CKT|Qtek9090|APA9292KT|HD_mini|Sensation.*Z710e|PG86100|Z715e|Desire.*(A8181|HD)|ADR6200|ADR6425|001HT|Inspire 4G',
+      'model' => array('HTC.[MODEL]', 'HTC; [MODEL]', 'HTC/[MODEL]', ' [MODEL] Build'),
+      ),
+      // [...]  
  ),
  'tabletDevices' => array(),
  'operatingSystems' => array(),
@@ -23,11 +29,11 @@ protected static $items = array(
 protected static $itemsProperties = array(
  // Build specific version.
  'Mobile' => 'Mobile/[VERSION_REGEX]',
- 'Build' => 'Build/[VER]',
+ 'Build' => 'Build/[VERSION_REGEX]',
  // Device specific version.
- 'iPad' => 'iPad.*CPU[a-z ]+[VER]',
+ 'iPad' => 'iPad.*CPU[a-z ]+[VERSION_REGEX]',
  // Browser version.
- 'Chrome' => array('Chrome/[VER]', 'CriOS/[VER]', 'CrMo/[VER]'),
+ 'Chrome' => array('Chrome/[VERSION_REGEX]', 'CriOS/[VERSION_REGEX]', 'CrMo/[VERSION_REGEX]'),
  // Engine version.
  // OS version.
  // [...]
@@ -50,11 +56,13 @@ public function getUserAgent();
 public function getItems( $itemKey = null );
 public function getItemsProperties();
 // Internal utility methods
-private function _match( $regex );
 private function _prepareVersion( $version );
+private function _match( $regex );
+private function _matchDetectionRulesAgainstUA();
+private function _matchUAAgainstKey( $key );
 // Checking methods.
 public function checkHttpHeadersForMobile();
-public function __call($name, $arguments);
+public function __call($name, $arguments); // private?
 public function isMobile();
 public function isTablet();
 public function is( $itemKey );
