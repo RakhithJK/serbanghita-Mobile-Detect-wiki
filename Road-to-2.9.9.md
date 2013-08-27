@@ -19,10 +19,10 @@
 1. `V9S_V1.4` is a 7" tablet - ZTE Light Tab http://devdb.ru/zte_light_tab_3
 1. `Next7P12` is `Nextbook 7SE Tablet`
 1. `Tabtronics` tablets http://www.tabtronics.co.uk/SearchResults.asp?Cat=1817
-1. `CUBE U8GT` tablet
-1. `Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; M9000 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 UC/2.1.1.219` http://www.newegg.com/Product/Product.aspx?Item=9SIA1M80E16107
+1. <s>`CUBE U8GT` tablet</s>
+1. <s>`Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; M9000 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 UC/2.1.1.219` http://www.newegg.com/Product/Product.aspx?Item=9SIA1M80E16107</s>
 1. Research http://www.scientiamobile.com/blog/post/view/id/33/title/WURFL-and-Google-Glass
 1. Hero Tab - http://theherotab.com/home/
-1. `Allwinner A10 tablet` http://forum.xda-developers.com/showthread.php?t=1925577
+1. <s>`Allwinner A10 tablet` http://forum.xda-developers.com/showthread.php?t=1925577</s>
 1. Study `'(\d+).(\d+).?([ab]?\d+[a-z]*)?'.` for float version extraction
 1. Add phones http://www.zopomobileshop.com/ (search in db for SN)
