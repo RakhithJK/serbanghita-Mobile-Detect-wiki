@@ -11,7 +11,9 @@ protected $userAgent = null;
 protected $httpHeaders = array();
 protected static $items = array(
  'phoneDevices' => array(),
- 
+ 'tabletDevices' => array(),
+ 'operatingSystems' => array(),
+ 'browsers' => array()
 );
 ```
 
@@ -26,6 +28,9 @@ public function __construct( $httpHeaders , $userAgent ) {
 public function getVersion();
 public function setUserAgent( $userAgent );
 public function getUserAgent();
+public function isMobile();
+public function isTablet();
+public function is( $itemKey );
 ```
 
 
