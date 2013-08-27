@@ -1,6 +1,3 @@
-#### Code examples
-
-### Basic examples
 ```
 <?php
 // These lines are mandatory.
