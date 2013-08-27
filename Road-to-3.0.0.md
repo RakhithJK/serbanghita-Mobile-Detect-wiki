@@ -21,13 +21,17 @@ protected static $items = array(
 
 ```php
 <?php
+// Constructor.
 public function __construct( $httpHeaders , $userAgent ) {
  $this->setHttpHeaders($httpHeaders); 
  $this->setUserAgent($userAgent);
 }
+// Utility methods.
 public function getVersion();
 public function setUserAgent( $userAgent );
 public function getUserAgent();
+// Checking methods.
+public function checkHttpHeadersForMobile();
 public function isMobile();
 public function isTablet();
 public function is( $itemKey );
