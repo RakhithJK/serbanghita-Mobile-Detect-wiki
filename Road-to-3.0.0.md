@@ -1,5 +1,7 @@
 > "Work like a slave, command like a king, create like a God."
 
+Whether the user is coming from mobile, tablet or computer there is an acute need to categorize them. Every information about the _device_, _operating system_ and _browser_ can help the developer serving the right content.
+
 ### API
 
 ##### Variables
@@ -83,6 +85,16 @@ public function what() {
 }
 ```
 
+##### Examples
+
+```
+<?php
+// General informations about the device.
+$deviceInfo = $detect->what();
+
+// Possibility of picking a component.
+$browserInfo = $detect->what('browser');
+```
 
 ***
 
