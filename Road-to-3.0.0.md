@@ -7,7 +7,8 @@
 ```php
 <?php
 const VERSION = '3.0.0';
-const VERSION_REGEX = '([\w._\+]+)';
+const GENERIC_VERSION_REGEX = '([\w._\+]+)';
+const GENERIC_MODEL_REGEX = '([\w_]+)';
 protected $userAgent = null;
 protected $httpHeaders = array();
 protected $cache = array();
