@@ -1,0 +1,9 @@
+The first version of the script was developed in 2010 and it was hosted at https://code.google.com/p/php-mobile-detect/, it was a small project with around 30 stars.
+
+In December 2011 it received a major update from the first version, an important number of issues were fixed, then 2.0 was launched. The new version marks a new mindset and also featuring tablet detection.
+
+Throughout 2012 the script has been updated constantly and we have received tons of feedback and requests. 
+
+In July 2012 we moved the repository from Google Code to GitHub in order to quickly accommodate the frequent updates and to involve more people.
+
+In August 2013 the library has 1800+ stargazers and support for: composer, PHPUnit tests and PSR standards.
