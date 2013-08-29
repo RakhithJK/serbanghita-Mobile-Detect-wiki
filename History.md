@@ -9,3 +9,6 @@ In July 2012 we moved the repository from Google Code to GitHub in order to quic
 In August 2013 the library has 1800+ stargazers and support for: composer, PHPUnit tests, PSR standards and a new webpage http://mobiledetect.net
 
 Mobile Detect library and user contributions are <a href="https://github.com/serbanghita/Mobile-Detect/blob/master/LICENSE.txt">MIT Licensed</a>.
+
+**Current authors:** <a href="https://github.com/serbanghita">Şerban Ghiţă</a>, <a href="https://github.com/nicktacular">Nick Ilyin</a><br>
+**Former authors:** <a href="https://github.com/victorstanciu">Victor Stanciu</a> (v.1.0)
