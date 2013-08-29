@@ -6,4 +6,4 @@ Throughout 2012 the script has been updated constantly and we have received tons
 
 In July 2012 we moved the repository from Google Code to GitHub in order to quickly accommodate the frequent updates and to involve more people.
 
-In August 2013 the library has 1800+ stargazers and support for: composer, PHPUnit tests and PSR standards.
+In August 2013 the library has 1800+ stargazers and support for: composer, PHPUnit tests, PSR standards and a new webpage http://mobiledetect.net
