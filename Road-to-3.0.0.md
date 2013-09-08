@@ -74,7 +74,12 @@ public function isMobile();
 public function isTablet();
 public function is( $itemKey );
 
-public function what() {
+public function device() {
+  //see this class definition further below
+  return new Mobile_Detect_Device_Info(...);
+}
+
+public function deviceAsArray() {
  return array(
     'deviceType' => 'mobile', // tablet, classic
     'deviceVendor' => 'Samsung',
@@ -85,6 +90,27 @@ public function what() {
     'browserVer' => '18.0.1025.308',
  )
 }
+
+//IDEA
+//What if device() method returns as object like so:
+
+class Mobile_Detect_Device_Info
+{
+  protected $deviceType;
+  public function getDeviceType(){return $this->deviceType;}
+
+  protected $deviceVendor;
+  public function getDeviceVendor(){return $this->deviceVendor;}
+
+  protected $deviceModel;
+  public function getDeviceModel(){return $this->deviceModel;}
+
+  protected $os;
+  public function getOs(){return $this->os;}
+
+  //and so on, for the rest...
+}
+
 ```
 
 ##### Examples
@@ -92,10 +118,12 @@ public function what() {
 ```
 <?php
 // General informations about the device.
-$deviceInfo = $detect->what();
+$deviceInfoArray = $detect->deviceAsArray();
+$deviceInfoObj   = $detect->device();
 
 // Possibility of picking a component.
-$browserInfo = $detect->what('browser');
+$browserInfo  = $deviceInfoArray['browser'];
+$browserInfo2 = $detect->device()->getBrowser();
 ```
 
 ***
