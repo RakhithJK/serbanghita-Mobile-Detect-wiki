@@ -15,6 +15,7 @@ const GENERIC_VERSION_REGEX = '([\w._\+]+)';
 const GENERIC_MODEL_REGEX = '([\w_]+)';
 protected $userAgent = null;
 protected $httpHeaders = array();
+protected $cacheAdapter;//an object
 protected $cache = array();
 protected static $items = array(
  'phoneDevices' => array(
@@ -52,9 +53,11 @@ protected static $itemsProperties = array(
 ```php
 <?php
 // Constructor.
-public function __construct( $httpHeaders , $userAgent ) {
+public function __construct( $httpHeaders, $userAgent, $cacheAdapter ) {
  $this->setHttpHeaders($httpHeaders); 
  $this->setUserAgent($userAgent);
+ //the call below makes sure stuff like ->set(...) and ->get(...) exist on the object (or whatever we determine is right based on the discussion in #140)
+ $this->checkCacheAdapter($cacheAdapter);
 }
 // Public utility methods.
 public function getVersion();
@@ -148,6 +151,7 @@ $browserInfo2 = $detect->device()->getBrowser();
 1. Recreate `is()` method for backward compatibility.
 1. Create internal caching mechanism for the `what()` method. Should be able to create, read and destroy the cache.
 1. Remove all `@deprecated` methods and/or parameters.
+1. When a `$cacheAdapter` is passed during construction, all heavy calls should pipe data through there with the user agent as the key. At the least, we can implement a simple local in-memory cache and maybe some other super-simple adapters like APC or memcached.
 
 ### Competition
 
