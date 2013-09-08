@@ -119,6 +119,7 @@ $browserInfo = $detect->what('browser');
 1. Recreate `isTablet()` method for backward compatibility.
 1. Recreate `is()` method for backward compatibility.
 1. Create internal caching mechanism for the `what()` method. Should be able to create, read and destroy the cache.
+1. Remove all `@deprecated` methods and/or parameters.
 
 ### Competition
 
