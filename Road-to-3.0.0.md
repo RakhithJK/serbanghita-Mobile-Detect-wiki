@@ -6,6 +6,19 @@ We are currently storing `$phoneDevices`, `$tabletDevices`, `$operatingSystems`,
 
 ### API
 
+The `Mobile_Detect::$items` array will contain the following string keys: `phoneDevices`, `tabletDevices`, `operatingSystems`, and `browsers`. Each key will be an array where the keys will be strings that pertain to the vendor/class and the value will be an associative array with the following possible keys:
+
+* `vendor`: The vendor name.
+* `matchType`: If not specified, it defaults to `"regex"` since most checks are regular expressions. The other possible value is `"strpos"` which will use the PHP `strpos` method and will return true as long as the result is not false. Also, `"stripos"` will be the case-insensitive version of `"strpos"`. Note that `strpos` (and `stripos`) can be falsy with `0` but this will not be acceptable as `strpos(...) === false` (see [[docs|http://php.net/manual/en/function.strpos.php]]).
+* `match`: The match, either a regular expression OR a string which is passed to `strpos` depending on `matchType` key.
+* `model`: An array with at least 1 item indicating some matches that can be done to identify how to extract the model information. The presence of `[MODEL]` in the string will be substituted by the model regular expression match. `[MODEL]` regex might vary from vendor to vendor, another key like `modelMatch` might be needed.
+* `property`: An array of strings that matches to `$itemProperties` array (as keys) to show which properties are available for this specific device type.
+
+The following key was up for discussion but will not be included for reasons of not wanting a homogenous array at the moment.
+
+* ~~`deviceType`: the type of device, either `phone`, `os`, `tablet`, or `browser`. However this may not be feasible based on the following notes.~~
+
+
 ##### Variables
 
 ```php
@@ -20,10 +33,19 @@ protected $cache = array();
 protected static $items = array(
  'phoneDevices' => array(
     'HTC'        => array(
-      'vendor' => 'HTC',
-      'match' => 'HTC|HTC.*(Sensation|Evo|Vision|Explorer|6800|8100|8900|A7272|S510e|C110e|Legend|Desire|T8282)|APX515CKT|Qtek9090|APA9292KT|HD_mini|Sensation.*Z710e|PG86100|Z715e|Desire.*(A8181|HD)|ADR6200|ADR6425|001HT|Inspire 4G',
-      'model' => array('HTC.[MODEL]', 'HTC; [MODEL]', 'HTC/[MODEL]', ' [MODEL] Build'),
+      'vendor'    => 'HTC',
+      'matchType' => 'regex',
+      'match'     => 'HTC|HTC.*(Sensation|Evo|Vision|Explorer|6800|8100|8900|A7272|S510e|C110e|Legend|Desire|T8282)|APX515CKT|Qtek9090|APA9292KT|HD_mini|Sensation.*Z710e|PG86100|Z715e|Desire.*(A8181|HD)|ADR6200|ADR6425|001HT|Inspire 4G',
+      'model'     => array('HTC.[MODEL]', 'HTC; [MODEL]', 'HTC/[MODEL]', ' [MODEL] Build'),
+      'property'  => array('Build', 'Android')
       ),
+    'iPhone' => array(
+        'vendor'    => 'Apple',
+        'matchType' => 'stripos',
+        'match'     => 'iphone',
+        'model'     => array('Version/[MODEL]'),
+        'property'  => array('AppleWebkit')
+    )
       // [...]  
  ),
  'tabletDevices' => array(),
