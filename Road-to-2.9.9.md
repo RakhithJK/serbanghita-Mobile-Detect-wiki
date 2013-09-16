@@ -2,9 +2,9 @@
 
 ### v.2.x.x branch
 1. Graded browsers https://github.com/ded/bowser/blob/master/src/bowser.js
-1. Asus tablets http://www.asus.com/Tablets_Mobile/Transformer_Pad_Products/
-1. E-boda tablets `Mozilla/5.0 (Linux; U; Android 4.1.1; ro-ro; E-Boda Supreme Dual Core X190 Build/JRO03C) AppleWebKit/534.30 (KHTML like Gecko) Version/4.0 Safari/534.30`
-1. Overmax tablets `Mozilla/5.0 (Linux; U; Android 4.0.4; pl-pl; OV-SteelCore Build/ICS.g08refem611.20121010) AppleWebKit/534.30 (KHTML like Gecko) Version/4.0 Safari/534.30` - http://www.overmania.pl/pl/p/TABLET-OVERMAX-SteelCore-3-III-10%2C1-4x1%2C6GHz-IPS-Etui/308
+1. <s>Asus tablets http://www.asus.com/Tablets_Mobile/Transformer_Pad_Products/</s>
+1. <s>E-boda tablets `Mozilla/5.0 (Linux; U; Android 4.1.1; ro-ro; E-Boda Supreme Dual Core X190 Build/JRO03C) AppleWebKit/534.30 (KHTML like Gecko) Version/4.0 Safari/534.30`</s>
+1. <s>Overmax tablets `Mozilla/5.0 (Linux; U; Android 4.0.4; pl-pl; OV-SteelCore Build/ICS.g08refem611.20121010) AppleWebKit/534.30 (KHTML like Gecko) Version/4.0 Safari/534.30` - http://www.overmania.pl/pl/p/TABLET-OVERMAX-SteelCore-3-III-10%2C1-4x1%2C6GHz-IPS-Etui/308</s>
 1. <s>`OPR/14.0.1025.52315` http://my.opera.com/ODIN/blog/2013/03/05/opera-14-beta-for-android-is-out</s>
 1. <s>Research `Windows NT 6.2` (Windows 8) in combination with `ARM` or `Touch`</s>
 1. <s>`A210` looks like `Acer Iconia Tab` is not recognized as a tablet</s>
