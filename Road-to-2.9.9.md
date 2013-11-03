@@ -1,6 +1,7 @@
 > "Work like a slave, command like a king, create like a God."
 
 ### v.2.x.x branch
+1. Add http://docs.aws.amazon.com/silk/latest/developerguide/user-agent.html
 1. Add 3rd party: http://docs.typo3.org/typo3cms/extensions/px_mobiledetect/1.0.2/
 1. Graded browsers https://github.com/ded/bowser/blob/master/src/bowser.js
 1. <s>Asus tablets http://www.asus.com/Tablets_Mobile/Transformer_Pad_Products/</s>
