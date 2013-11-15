@@ -31,3 +31,4 @@
 1. <s>`Allwinner A10 tablet` http://forum.xda-developers.com/showthread.php?t=1925577</s>
 1. Study `'(\d+).(\d+).?([ab]?\d+[a-z]*)?'.` for float version extraction
 1. Add phones http://www.zopomobileshop.com/ (search in db for SN)
+1. Add 3rd party project https://github.com/renekreijveld/UserAgentDetector
