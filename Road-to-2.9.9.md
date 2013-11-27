@@ -32,3 +32,4 @@
 1. Study `'(\d+).(\d+).?([ab]?\d+[a-z]*)?'.` for float version extraction
 1. Add phones http://www.zopomobileshop.com/ (search in db for SN)
 1. Add 3rd party project https://github.com/renekreijveld/UserAgentDetector
+1. Inspect https://wiki.mozilla.org/Compatibility/UADetectionLibraries
