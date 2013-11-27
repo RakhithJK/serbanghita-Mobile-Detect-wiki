@@ -34,3 +34,4 @@
 1. Add 3rd party project https://github.com/renekreijveld/UserAgentDetector
 1. Inspect https://wiki.mozilla.org/Compatibility/UADetectionLibraries
 1. Add support http://www.igvita.com/2013/08/29/automating-dpr-switching-with-client-hints/
+1. `"HTTP_X_REQUESTED_WITH":"com.asus.browser"`
