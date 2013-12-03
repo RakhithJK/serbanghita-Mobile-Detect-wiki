@@ -3,6 +3,7 @@ For basic usage of the `Mobile_Detect` class, run the example files https://gith
 <table>
 <tr><td><code><a href="https://github.com/serbanghita/Mobile-Detect/blob/master/examples/demo.php">demo.php</a></code></td><td>Point your browser or mobile device and check the results.</td></tr>
 <tr><td><code><a href="https://github.com/serbanghita/Mobile-Detect/blob/master/examples/session_example.php">session_example.php</a></code></td><td>Simple example of switching between <code>mobile</code> and <code>classic</code> views between pages.</td></tr>
+<tr><td><a href="http://www.youtube.com/watch?v=Tx9ozUVGn5U">Video [ES]</a></td><td>Mini tutorial in Spanish by Alejandro Palop.</td></tr>
 </table>
 
 ```
