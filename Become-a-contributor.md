@@ -7,7 +7,7 @@
   <li>Switch to <code>devel</code> branch.</li>
   <li>Commit your changes to <code>Mobile_Detect.php</code> or whatever file.</li>
   <li>Commit tests (User-Agent strings) to<code>tests/UA_List.inc.php</code>. <u>It's important to put tests in if you change the regexes, otherwise the commit will not pass.</u></li>
-  <li>Run the tests <code>php <a href="http://pear.phpunit.de/get/phpunit.phar" title="Download phpunit.phar">phpunit.phar</a> /path/to/mobiledetectlib/tests/phpunit.xml</code>. Check for errors.</li>
+  <li>Run the tests <code>php <a href="http://pear.phpunit.de/get/phpunit.phar" title="Download phpunit.phar">phpunit.phar</a> -c /path/to/mobiledetectlib/tests/phpunit.xml</code>. Check for errors.</li>
   <li>Run the code fix <code>php <a href="http://cs.sensiolabs.org/get/php-cs-fixer.phar">php-cs-fixer.phar</a> fix "/path/to/mobiledetectlib" --verbose --dry-run</code>. If there are errors run it again without <code>--dry-run</code>.</li>
   <li>Commit to <code>devel</code>. Push.</li>
   <li>The commit will be reviewed and merged into <code>master</code></li>
