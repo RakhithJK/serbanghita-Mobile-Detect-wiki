@@ -35,3 +35,4 @@
 1. Inspect https://wiki.mozilla.org/Compatibility/UADetectionLibraries
 1. Add support http://www.igvita.com/2013/08/29/automating-dpr-switching-with-client-hints/
 1. `"HTTP_X_REQUESTED_WITH":"com.asus.browser"`
+1. Investigate https://gist.github.com/jabley/990596 and https://github.com/varnish/varnish-devicedetect/issues/17 - aka "Custom User-agent from inside the applications".
