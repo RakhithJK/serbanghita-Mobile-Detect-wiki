@@ -6,14 +6,14 @@ For basic usage of the `Mobile_Detect` class, run the example files https://gith
 <tr><td><a href="http://www.youtube.com/watch?v=Tx9ozUVGn5U">Video [ES]</a></td><td>Mini tutorial in Spanish by Alejandro Palop.</td></tr>
 </table>
 
-```
+```php
 <?php
 // These lines are mandatory.
 require_once 'Mobile_Detect.php';
 $detect = new Mobile_Detect;
 ```
 
-```
+```php
 <?php
 // Basic detection.
 $detect->isMobile();
@@ -41,7 +41,7 @@ $detect->setUserAgent($userAgent);
 $detect->setHttpHeaders($httpHeaders);
 ```
 
-```
+```php
 <?php
 // Check for mobile environment.
 if ($detect->isMobile()) {
@@ -49,7 +49,7 @@ if ($detect->isMobile()) {
 }
 ```
 
-```
+```php
 <?php
 // Check for tablet device.
 if($detect->isTablet()){
@@ -65,7 +65,7 @@ if ($detect->isMobile() && !$detect->isTablet()) {
 }
 ```
 
-```
+```php
 <?php
 //  Keep the value in $_SESSION for later use
 //    and for optimizing the speed of the code.
