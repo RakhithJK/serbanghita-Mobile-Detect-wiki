@@ -251,6 +251,14 @@ List of open-source and commercial projects involved in detection of mobile devi
 1. https://github.com/spotweb/spotweb
 1. https://github.com/IFBook/CommentPressPlugin
 
+### Media sources
+
+http://www.phonearena.com/news
+http://www.newcellphonesblog.com/
+http://www.phonedog.com/posts/
+http://www.zdnet.com/blog/cell-phones/
+http://www.mobileburn.com/
+
 ### Code updates:
 
 1. <s>On demo.php send the results via jsonp to mobiledetect.net db</s>
