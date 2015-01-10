@@ -264,3 +264,10 @@ http://www.mobileburn.com/
 1. <s>On demo.php send the results via jsonp to mobiledetect.net db</s>
 2. <s>Study `Windows; U;`, `Linux; U;` and `Macintosh; U;` user-agents</s>
 3. Study `CodeIgniter`'s user-agent class.
+
+### 3.0 release todos
+
+This is a list of items remaining prior to our first alpha release for 3.0.
+
+ - [ ] Implement version getters for the Device class
+ - [ ] Document how to implement caching using the callback implementation.
