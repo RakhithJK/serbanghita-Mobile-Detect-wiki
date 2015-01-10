@@ -274,3 +274,5 @@ This is a list of items remaining prior to our first alpha release for 3.0.
  - [ ] Complete remaining static "easy" methods.
  - [ ] Document an easy start guide for 3.0.
  - [ ] Add general documentation.
+ - [ ] Freeze 2.x dev work.
+ - [ ] Import definitions from most recent 2.x work into 3.0 dev branch.
