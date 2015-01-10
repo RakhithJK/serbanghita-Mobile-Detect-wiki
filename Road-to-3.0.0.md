@@ -271,3 +271,6 @@ This is a list of items remaining prior to our first alpha release for 3.0.
 
  - [ ] Implement version getters for the Device class
  - [ ] Document how to implement caching using the callback implementation.
+ - [ ] Complete remaining static "easy" methods.
+ - [ ] Document an easy start guide for 3.0.
+ - [ ] Add general documentation.
