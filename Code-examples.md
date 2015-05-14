@@ -116,7 +116,8 @@ if( $detect->isAndroidOS() ){
 // WARNING: this method is in BETA, some keyword properties will change in the future.
 $detect->is('Chrome')
 $detect->is('iOS')
-$detect->is('UC Browser')
+$detect->is('UCBrowser')
+$detect->is('Opera')
 // [...]
 
 // Batch mode using setUserAgent():
