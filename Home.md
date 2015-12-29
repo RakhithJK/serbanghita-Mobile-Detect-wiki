@@ -1,1 +1,1 @@
-Welcome to the Mobile-Detect wiki!
+[3.0]
