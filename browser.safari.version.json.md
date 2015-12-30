@@ -1,4 +1,4 @@
-# File format
+# Safari Browser
 
 ```json
 {
